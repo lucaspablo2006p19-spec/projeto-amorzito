@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Você 💗</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TELA 1 -->
+  <section id="screen-intro" class="screen active">
+    <button id="startBtn">💗 Aperte aqui, meu amor</button>
+  </section>
+
+  <!-- TELA 2 -->
+  <section id="screen-love" class="screen hidden">
+    <div id="overlay"></div>
+
+    <!-- CARROSSEL TOPO -->
+    <div class="carousel top">
+      <div class="track" id="carouselTop"></div>
+    </div>
+
+    <!-- CONTEÚDO CENTRAL -->
+    <div id="content">
+      <div id="letter"></div>
+    </div>
+
+    <!-- CARROSSEL RODAPÉ -->
+    <div class="carousel bottom">
+      <div class="track reverse" id="carouselBottom"></div>
+    </div>
+  </section>
+
+  <canvas id="particles"></canvas>
+
+  <script src="app.js"></script>
+</body>
+</html>
